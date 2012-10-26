@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">State Parkin\'</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_campground">Campground</string>
+    
+    <string name="txtParkName">Name Of Park</string>
+    <string name="txtOverall">Overall Rating</string>
+    <string name="txtFacilities">Facilities</string>
+    <string name="txtTrails">Trails</string>
+    <string name="txtTent">Tent Sites</string>
+    <string name="txtCabin">Cabins</string>
+    <string name="txtCamper">Camper Sites</string>
+    <string name="txtFishing">Fishing</string>
+    <string name="txtBird">Bird Watching</string>
+    <string name="txtLikes">Likes</string>
+    <string name="txtDislikes">Dislikes</string>
+    
+    <string name="hntLikes">What do you like about the park?</string>
+    <string name="hntDislikes">What do you dislike about the park?</string>
+    
+    <string name="descBall">Soccer Ball</string>
+
+</resources>

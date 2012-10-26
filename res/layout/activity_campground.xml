@@ -1,0 +1,246 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrCampground" 
+    android:background="#F5FFFF">
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/txtParkName"
+	        android:gravity="center"
+	        android:textSize="20sp"
+	        android:textColor="#8A5C2E" />
+	    
+	    <HorizontalScrollView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <LinearLayout
+	            android:orientation="horizontal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent" 
+	            android:id="@+id/lytImages" >
+		        
+	        </LinearLayout>
+	    </HorizontalScrollView>
+	    
+		<TextView
+	    	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/txtOverall"
+	        android:textSize="20sp" />
+	        
+	     <RatingBar
+	        android:id="@+id/rtgOverall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:isIndicator="true"
+	        android:numStars="5"
+	        android:stepSize="1.0" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:paddingLeft="15sp" >
+	
+		    <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtFacilities" />
+		    
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <ImageView 
+		            android:id="@+id/imgFacilitiesNone"
+		            android:layout_width="wrap_content"
+		            android:layout_height="70dip"
+		            android:src="@drawable/none_empty"/>
+		     
+			    <RatingBar
+			        android:id="@+id/rtgFacilities"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:numStars="5"
+			        android:stepSize="1.0" 
+			        style="@style/campRatingBar" />
+			     
+		     </LinearLayout>
+		            
+		    <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtTrails" />
+
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <ImageView 
+		            android:id="@+id/imgTrailsNone"
+		            android:layout_width="wrap_content"
+		            android:layout_height="70dip"
+		            android:src="@drawable/none_empty"/>
+		    	    		    
+		    	<RatingBar
+		        	android:id="@+id/rtgTrails"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:numStars="5"
+		        	android:stepSize="1.0"
+		        	style="@style/campRatingBar" />
+		     
+		    </LinearLayout>
+		    
+		     <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtTent" />
+		     
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <ImageView 
+		            android:id="@+id/imgTentNone"
+		            android:layout_width="wrap_content"
+		            android:layout_height="70dip"
+		            android:src="@drawable/none_empty"/>
+		        		     
+			    <RatingBar
+			    	android:id="@+id/rtgTent"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:numStars="5"
+			        android:stepSize="1.0"
+			        style="@style/campRatingBar" />
+			</LinearLayout>
+		     
+		     <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtCabin" />
+		     
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <ImageView 
+		            android:id="@+id/imgCabinNone"
+		            android:layout_width="wrap_content"
+		            android:layout_height="70dip"
+		            android:src="@drawable/none_empty"/>		     
+		     
+		    	<RatingBar
+			        android:id="@+id/rtgCabin"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:numStars="5"
+			        android:stepSize="1.0"
+			        style="@style/campRatingBar" />
+		    </LinearLayout>
+		     
+		     <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtCamper" />
+		     
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <ImageView 
+		            android:id="@+id/imgCamperNone"
+		            android:layout_width="wrap_content"
+		            android:layout_height="70dip"
+		            android:src="@drawable/none_empty"/>
+		        		     
+			     <RatingBar
+			        android:id="@+id/rtgCamper"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:numStars="5"
+			        android:stepSize="1.0"
+			        style="@style/campRatingBar" />
+		    </LinearLayout>
+		     <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtFishing" />
+		     
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <ImageView 
+		            android:id="@+id/imgFishingNone"
+		            android:layout_width="wrap_content"
+		            android:layout_height="70dip"
+		            android:src="@drawable/none_empty"/>		     
+			    <RatingBar
+			        android:id="@+id/rtgFishing"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:numStars="5"
+			        android:stepSize="1.0"
+			        style="@style/campRatingBar" />
+		     </LinearLayout>
+		     
+		     <TextView
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtBird" />
+		     
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <ImageView 
+		            android:id="@+id/imgBirdNone"
+		            android:layout_width="wrap_content"
+		            android:layout_height="70dip"
+		            android:src="@drawable/none_empty"/>
+		        		     
+			    <RatingBar
+			        android:id="@+id/rtgBird"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:numStars="5"
+			        android:stepSize="1.0"
+			        style="@style/campRatingBar" />
+			</LinearLayout>    
+		     
+	     </LinearLayout>
+	     
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/txtLikes"/>
+	    
+	    <EditText 
+	        android:layout_width="match_parent"
+	        android:layout_height="100dp"
+	        android:id="@+id/editLikes"
+	        android:hint="@string/hntLikes" />
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/txtDislikes"/>
+	    
+	    <EditText 
+	        android:layout_width="match_parent"
+	        android:layout_height="100dp"
+	        android:id="@+id/editDislikes"
+	        android:hint="@string/hntDislikes" />
+	
+	</LinearLayout>
+</ScrollView>

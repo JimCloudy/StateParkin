@@ -1,0 +1,12 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style 
+        name="campRatingBar"
+        parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/camp_ratingbar_full</item>
+        <item name="android:minHeight">70dp</item>
+        <item name="android:maxHeight">70dp</item>
+    </style>
+
+</resources>
